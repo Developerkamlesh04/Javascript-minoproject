@@ -1,0 +1,214 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&family=Ubuntu:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Full Page Background */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #000428, #004e92);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main Container */
+.main {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Overlay Box */
+.overlay {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Title Text */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Countdown Timer Container */
+.col {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual Time Box */
+.col div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    min-width: 120px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Input Fields for Countdown */
+.col input {
+    width: 60px;
+    height: 40px;
+    font-size: 22px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+/* Label Below Input */
+.col label {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .title {
+        font-size: 20px;
+    }
+
+    .col {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col div {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background: url('./img/back.webp') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    width: 90%;
+    max-width: 1000px;
+}
+
+
+.col div {
+    width: 22%;
+    min-width: 140px;
+    text-align: center;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+
+input {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    font-weight: bold;
+    color: #000;
+}
+
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .col {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .col div {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .col div {
+        width: 100%;
+    }
+
+    input {
+        font-size: 20px;
+    }
+}  */
