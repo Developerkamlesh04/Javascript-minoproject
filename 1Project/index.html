@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&family=Ubuntu:wght@700&display=swap" rel="stylesheet" />
 </head>
 <body>
-    
+    <div class="main">
+        <div class="overlay">
+            <div class="title">We are coming soon</div>
+            <div class="title" id="end-date">10 March 2025 10:00 PM</div>
+            <div class="col">
+                <div>
+                    <input type="text" id="days" readonly>
+                    <label for="days">Days</label>
+                </div>
+                <div>
+                    <input type="text" id="hours" readonly>
+                    <label for="hours">Hours</label>
+                </div>
+                <div>
+                    <input type="text" id="minutes" readonly>
+                    <label for="minutes">Minutes</label>
+                </div>
+                <div>
+                    <input type="text" id="seconds" readonly>
+                    <label for="seconds">Seconds</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
